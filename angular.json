@@ -3,6 +3,7 @@
   "projects": {
     "cool-website": "apps/cool-website",
     "cool-website-e2e": "apps/cool-website-e2e",
-    "home": "libs/home"
+    "home": "libs/home",
+    "shared-i18n": "libs/shared/i18n"
   }
 }

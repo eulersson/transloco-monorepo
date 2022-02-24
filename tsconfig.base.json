@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@transloco-monorepo/home": ["libs/home/src/index.ts"]
+      "@transloco-monorepo/home": ["libs/home/src/index.ts"],
+      "@transloco-monorepo/shared/i18n": ["libs/shared/i18n/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

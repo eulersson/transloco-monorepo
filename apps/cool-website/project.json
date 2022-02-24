@@ -15,7 +15,12 @@
         "tsConfig": "apps/cool-website/tsconfig.app.json",
         "assets": [
           "apps/cool-website/src/favicon.ico",
-          "apps/cool-website/src/assets"
+          "apps/cool-website/src/assets",
+          {
+            "input": "libs/shared/i18n/src/assets/i18n",
+            "glob": "**/*.json",
+            "output": "assets/i18n"
+          }
         ],
         "styles": ["apps/cool-website/src/styles.css"],
         "scripts": []
