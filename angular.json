@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "cool-website": "apps/cool-website",
+    "cool-website-e2e": "apps/cool-website-e2e"
+  }
+}
