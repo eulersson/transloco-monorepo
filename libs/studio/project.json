@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/studio",
+  "sourceRoot": "libs/studio/src",
+  "prefix": "transloco-monorepo",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/studio"],
+      "options": {
+        "jestConfig": "libs/studio/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/studio/src/**/*.ts",
+          "libs/studio/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

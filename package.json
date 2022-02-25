@@ -21,6 +21,7 @@
     "@angular/router": "~13.2.0",
     "@ngneat/transloco": "^3.1.4",
     "@nrwl/angular": "13.8.3",
+    "ngx-cookie-service": "^13.1.2",
     "rxjs": "~7.4.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4"

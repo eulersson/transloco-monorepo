@@ -1,13 +1,17 @@
 <h1>Home</h1>
 <ng-container *transloco="let t">
-  <p>Scoped translation: {{ t('home.greeting.goodMorning') }}</p>
+  <p>Scoped translation (home): {{ t('home.greeting.goodMorning') }}</p>
   <p>Global translations:</p>
   <ul>
     <li>1: {{ t('numbers.1') }}</li>
     <li>2: {{ t('numbers.2') }}</li>
     <li>3: {{ t('numbers.3') }}</li>
   </ul>
-</ng-container>
+  <p>
+    Translation that only exists in few languages (ca, en, es):
+    {{ t('onlyInCaEsEn') }}
+  </p></ng-container
+>
 
 <select [ngModel]="activeLang" (ngModelChange)="onLanguageChange($event)">
   <option *ngFor="let lang of availableLangs">{{ lang }}</option>
